@@ -2,7 +2,7 @@
 
 An application made in Flask to pull RSS feeds into one site.
 
-*Important Notice: This build assumes you have already generated your certifcates
+**Important Notice: This build assumes you have already generated your certifcates
 
 ## Deployment 
 * Clone the repository:
@@ -45,13 +45,16 @@ server {
 }
 
 ```
-* Install docker & docker compose
+### Install docker & docker compose
 ```
 sudo apt install docker && docker-compose
 ```
 
-* Run containers
+### Run Docker Compose
 ```
 sudo docker-compose up -d --build
 ```
- 
+
+Now go to your domain!
+
+
