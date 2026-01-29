@@ -10,14 +10,14 @@ An application made in Flask to pull RSS feeds into one site.
 git clone https://github.com/0x32-dev/cyber-news-app.git
 ```
 
-* Create Nginx.conf
+### Create Nginx.conf
 Make the directory:
 ```
 mkdir ngnix
 ```
 
-Then create the configuration file:
-
+### Create NGINX Config file:
+Replace $DOMAIN with your domain 
 
 ```
 server {
@@ -55,6 +55,5 @@ sudo apt install docker && docker-compose
 sudo docker-compose up -d --build
 ```
 
-Now go to your domain!
-
+Your site should now be running!
 
